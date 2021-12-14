@@ -106,37 +106,37 @@ void DemoWindow::render_cube()
 {
 	glBegin(GL_QUADS);
 
-	glColor3d(1.0, 0.0, 0.0);		// Нижняя грань, красная
+	glColor3d(1.0, 0.0, 0.0);		
 	glVertex3d(-1.0,  1.0, -1.0);
 	glVertex3d( 1.0,  1.0, -1.0);
 	glVertex3d( 1.0, -1.0, -1.0);
 	glVertex3d(-1.0, -1.0, -1.0);
 
-	glColor3d(0.0, 1.0, 1.0);		// Верхняя грань, бирюзовая
+	glColor3d(0.0, 1.0, 1.0);		
 	glVertex3d(-1.0, -1.0,  1.0);
 	glVertex3d( 1.0, -1.0,  1.0);
 	glVertex3d( 1.0,  1.0,  1.0);
 	glVertex3d(-1.0,  1.0,  1.0);
 
-	glColor3d(0.0, 1.0, 0.0);		// Боковая грань, зеленая
+	glColor3d(0.0, 1.0, 0.0);		
 	glVertex3d(-1.0,  1.0, -1.0);
 	glVertex3d( 1.0,  1.0, -1.0);
 	glVertex3d( 1.0,  1.0,  1.0);
 	glVertex3d(-1.0,  1.0,  1.0);
 
-	glColor3d(1.0, 0.0, 1.0);		// Боковая грань, фиолетовая
+	glColor3d(1.0, 0.0, 1.0);		
 	glVertex3d( 1.0, -1.0, -1.0);
 	glVertex3d(-1.0, -1.0, -1.0);
 	glVertex3d(-1.0, -1.0,  1.0);
 	glVertex3d( 1.0, -1.0,  1.0);
 
-	glColor3d(0.0, 0.0, 1.0);		// Боковая грань, синяя
+	glColor3d(0.0, 0.0, 1.0);		
 	glVertex3d( -1.0, 1.0, -1.0);
 	glVertex3d(-1.0, -1.0, -1.0);
 	glVertex3d(-1.0, -1.0,  1.0);
 	glVertex3d(-1.0, 1.0,  1.0);
 
-	glColor3d(1.0, 1.0, 0.0);		// Боковая грань, желтая
+	glColor3d(1.0, 1.0, 0.0);		
 	glVertex3d(1.0, -1.0, -1.0);
 	glVertex3d(1.0, 1.0, -1.0);
 	glVertex3d(1.0, 1.0,  1.0);
